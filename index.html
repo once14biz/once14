@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>ONCE14 — Consultoría Económica, Financiera y Estratégica</title>
+<meta name="description" content="ONCE14 · Consultoría económica, financiera y estratégica. Sonora, México y Commerce, California."/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:ital,opsz,wght@0,12..96,300;0,12..96,400;0,12..96,500;0,12..96,600;0,12..96,700;1,12..96,400;1,12..96,500&family=Inter:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="css/style.css"/>
+</head>
+</head>
+<body>
+
+<div class="intro-veil" id="introVeil" aria-hidden="true">
+  <img src="assets/logo-icon.png" alt=""/>
+</div>
+
+<div class="index-rail" aria-hidden="true">
+  <svg viewBox="0 0 34 1000" preserveAspectRatio="none">
+    <line class="index-track" x1="17" y1="0" x2="17" y2="1000"/>
+    <line class="index-fill" id="idxFill" x1="17" y1="0" x2="17" y2="0"/>
+    <polygon class="index-mark" id="idxMark" points="17,-6 12,4 22,4"/>
+  </svg>
+</div>
+
+<!-- ═══ NAV ═══ -->
+<nav class="nav" id="nav">
+  <a href="#inicio" class="logo-wrap">
+    <img class="logo-icon" src="assets/logo-icon.png" alt="ONCE14"/>
+    <div class="logo-text">
+      <span class="logo-name">ONCE<span class="g">14</span></span>
+      <span class="logo-tagline" data-i18n data-en="BUSINESS CONSULTORY">Consultorio de Negocios</span>
+    </div>
+  </a>
+  <div class="nav-right">
+    <ul class="nav-menu">
+      <li><a href="#nosotros"><span>§01</span><span data-i18n data-en="About">Nosotros</span></a></li>
+      <li><a href="#servicios"><span>§02</span><span data-i18n data-en="Services">Servicios</span></a></li>
+      <li><a href="#polizas"><span>§03</span><span data-i18n data-en="Retainers">Pólizas</span></a></li>
+      <li><a href="#proyectos"><span>§04</span><span data-i18n data-en="Projects">Proyectos</span></a></li>
+      <li><a href="#contacto" class="nav-cta"><span>§05</span><span data-i18n data-en="Contact">Contacto</span></a></li>
+    </ul>
+    <div class="lang-toggle" role="group" aria-label="Language">
+      <button class="lang-btn active" data-lang="es">ES</button>
+      <button class="lang-btn" data-lang="en">EN</button>
+    </div>
+  </div>
+  <button class="burger" id="burger" aria-label="Menú"><span></span><span></span><span></span></button>
+</nav>
+<nav class="m-nav" id="mNav">
+  <a href="#nosotros" data-i18n data-en="About">Nosotros</a>
+  <a href="#servicios" data-i18n data-en="Services">Servicios</a>
+  <a href="#polizas" data-i18n data-en="Retainers">Pólizas</a>
+  <a href="#proyectos" data-i18n data-en="Projects">Proyectos</a>
+  <a href="#sectores" data-i18n data-en="Industries">Sectores</a>
+  <a href="#faq" data-i18n data-en="FAQ">Preguntas frecuentes</a>
+  <a href="#contacto" data-i18n data-en="Contact">Contacto</a>
+  <div class="lang-toggle" role="group" aria-label="Language">
+    <button class="lang-btn active" data-lang="es">ES</button>
+    <button class="lang-btn" data-lang="en">EN</button>
+  </div>
+</nav>
+
+<!-- ═══ HERO ═══ -->
+<section id="inicio" class="hero">
+  <div class="hero-spot" id="heroSpot" aria-hidden="true"></div>
+  <div class="hero-top">
+    <div class="hero-headline">
+      <div class="eyebrow hero-kicker" data-i18n data-en="Economic, financial &amp; strategic consulting">Consultoría económica, financiera y estratégica</div>
+      <span class="display display--xl" data-i18n data-en="Your company">Su empresa</span>
+      <span class="display display--xl" data-i18n data-en="generates data. We">genera información.</span>
+      <span class="display display--xl" data-i18n data-en="<em>turn it into decisions.</em>">La <em>convertimos en decisiones.</em></span>
+      <p class="body-lg hero-desc" data-i18n data-en="If your company makes decisions without solid financial analysis, the risk is real: missed opportunities, poorly invested capital, growth without direction. We diagnose your financial situation, design the strategy, and stay with you until the results show — in your profitability, your cash flow and your growth.">Si su empresa toma decisiones sin un análisis financiero sólido, el riesgo es real: oportunidades perdidas, capital mal invertido, crecimiento sin rumbo. Diagnosticamos su situación financiera, diseñamos la estrategia y la acompañamos hasta que los resultados se vean — en su rentabilidad, su flujo de efectivo y su crecimiento.</p>
+      <div class="hero-actions">
+        <a href="#contacto" class="btn btn-solid"><span data-i18n data-en="Book a meeting">Agendar reunión</span> <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+        <a href="#servicios" class="btn btn-line" data-i18n data-en="View services">Ver servicios</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hstat"><span class="hstat-n"><span class="cnt" data-count="12">0</span><span data-i18n data-en="months">meses</span></span><span class="hstat-l" data-i18n data-en="Ongoing support, not one-off diagnostics">Acompañamiento continuo, no diagnósticos aislados</span></div>
+        <div class="hstat"><span class="hstat-n"><span class="cnt" data-count="3">0</span><span data-i18n data-en="retainers">pólizas</span></span><span class="hstat-l" data-i18n data-en="Calibrated to your company's scale and sector">Calibradas a la escala y sector de su empresa</span></div>
+        <div class="hstat"><span class="hstat-n"><span class="cnt" data-count="8">0</span><span data-i18n data-en="services">servicios</span></span><span class="hstat-l" data-i18n data-en="From project evaluation to corporate training">Desde evaluación de proyectos hasta capacitación</span></div>
+      </div>
+    </div>
+    <div class="hero-chart">
+      <svg viewBox="0 0 480 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <line class="hc-grid" x1="0" y1="330" x2="480" y2="330"/>
+        <line class="hc-grid" x1="0" y1="250" x2="480" y2="250"/>
+        <line class="hc-grid" x1="0" y1="170" x2="480" y2="170"/>
+        <line class="hc-grid" x1="0" y1="90" x2="480" y2="90"/>
+        <text class="hc-label" x="0" y="345">2021</text>
+        <text class="hc-label" x="440" y="345">2026</text>
+        <rect class="hc-bar" x="120" y="270" width="30" height="60" fill="var(--navy)" opacity="0.85"/>
+        <rect class="hc-bar" x="190" y="230" width="30" height="100" fill="var(--navy)" opacity="0.85"/>
+        <rect class="hc-bar" x="260" y="175" width="30" height="155" fill="var(--navy)" opacity="0.85"/>
+        <rect class="hc-bar" x="330" y="105" width="30" height="225" fill="var(--navy)" opacity="0.85"/>
+        <path class="hc-path" d="M20 300 C 90 290, 160 260, 230 200 C 290 148, 340 95, 420 55"/>
+        <polygon class="hc-arrow" points="420,40 440,55 418,68"/>
+      </svg>
+    </div>
+  </div>
+
+  <div class="ticker">
+    <div class="ticker-track" id="tickerTrack">
+      <span class="ticker-item"><b>01</b><span data-i18n data-en="Financial Consulting">Consultoría Financiera</span></span>
+      <span class="ticker-item"><b>02</b><span data-i18n data-en="Economic Consulting">Consultoría Económica</span></span>
+      <span class="ticker-item"><b>03</b><span data-i18n data-en="Financial Planning">Planeación Financiera</span></span>
+      <span class="ticker-item"><b>04</b><span data-i18n data-en="Investment Project Evaluation">Evaluación de Proyectos</span></span>
+      <span class="ticker-item"><b>05</b><span data-i18n data-en="Business Plans">Planes de Negocio</span></span>
+      <span class="ticker-item"><b>06</b><span data-i18n data-en="Financing Readiness">Financiamiento</span></span>
+      <span class="ticker-item"><b>07</b><span data-i18n data-en="Strategic Planning &amp; KPIs">Planeación Estratégica &amp; KPIs</span></span>
+      <span class="ticker-item"><b>08</b><span data-i18n data-en="Corporate Training">Capacitación Empresarial</span></span>
+      <span class="ticker-item" aria-hidden="true"><b>01</b><span data-i18n data-en="Financial Consulting">Consultoría Financiera</span></span>
+      <span class="ticker-item" aria-hidden="true"><b>02</b><span data-i18n data-en="Economic Consulting">Consultoría Económica</span></span>
+      <span class="ticker-item" aria-hidden="true"><b>03</b><span data-i18n data-en="Financial Planning">Planeación Financiera</span></span>
+      <span class="ticker-item" aria-hidden="true"><b>04</b><span data-i18n data-en="Investment Project Evaluation">Evaluación de Proyectos</span></span>
+      <span class="ticker-item" aria-hidden="true"><b>05</b><span data-i18n data-en="Business Plans">Planes de Negocio</span></span>
+      <span class="ticker-item" aria-hidden="true"><b>06</b><span data-i18n data-en="Financing Readiness">Financiamiento</span></span>
+      <span class="ticker-item" aria-hidden="true"><b>07</b><span data-i18n data-en="Strategic Planning &amp; KPIs">Planeación Estratégica &amp; KPIs</span></span>
+      <span class="ticker-item" aria-hidden="true"><b>08</b><span data-i18n data-en="Corporate Training">Capacitación Empresarial</span></span>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ NECESIDADES (client-first) ═══ -->
+<section id="necesidades" class="ch reveal-group" style="padding-top:5.5rem;padding-bottom:5.5rem;">
+  <div class="ch-head">
+    <div>
+      <div class="eyebrow" style="margin-bottom:1.5rem;" data-i18n data-en="— What does your company need?">— ¿Qué necesita su empresa?</div>
+      <h2 class="display display--lg" data-i18n data-en="From the problem<br/>to the <em>solution.</em>">Del problema<br/>a la <em>solución.</em></h2>
+    </div>
+    <div class="ch-ref mono" data-i18n data-en="4 COMMON SCENARIOS<br/>REF.NEEDS">4 ESCENARIOS COMUNES<br/>REF.NECESIDADES</div>
+  </div>
+  <div class="needs-grid">
+    <div class="need-item reveal-item">
+      <span class="need-tag mono" data-i18n data-en="COMMON PROBLEM">PROBLEMA FRECUENTE</span>
+      <p class="need-problem" data-i18n data-en="Decisions made without reliable data.">Decisiones tomadas sin datos confiables.</p>
+      <span class="need-arrow" aria-hidden="true">↓</span>
+      <span class="need-tag mono need-tag--gold" data-i18n data-en="OUR RESPONSE">NUESTRA RESPUESTA</span>
+      <p class="need-solution" data-i18n data-en="Financial diagnostics that show the exact reality of your business.">Diagnóstico financiero que muestra la realidad exacta del negocio.</p>
+    </div>
+    <div class="need-item reveal-item">
+      <span class="need-tag mono" data-i18n data-en="COMMON PROBLEM">PROBLEMA FRECUENTE</span>
+      <p class="need-problem" data-i18n data-en="Growth with no plan behind it.">Crecimiento sin un plan detrás.</p>
+      <span class="need-arrow" aria-hidden="true">↓</span>
+      <span class="need-tag mono need-tag--gold" data-i18n data-en="OUR RESPONSE">NUESTRA RESPUESTA</span>
+      <p class="need-solution" data-i18n data-en="Financial and strategic planning with measurable goals.">Planeación financiera y estratégica con metas medibles.</p>
+    </div>
+    <div class="need-item reveal-item">
+      <span class="need-tag mono" data-i18n data-en="COMMON PROBLEM">PROBLEMA FRECUENTE</span>
+      <p class="need-problem" data-i18n data-en="Investment projects launched without evaluating the risk.">Proyectos de inversión sin evaluar el riesgo.</p>
+      <span class="need-arrow" aria-hidden="true">↓</span>
+      <span class="need-tag mono need-tag--gold" data-i18n data-en="OUR RESPONSE">NUESTRA RESPUESTA</span>
+      <p class="need-solution" data-i18n data-en="Technical investment evaluation before capital is committed.">Evaluación técnica de inversión antes de comprometer capital.</p>
+    </div>
+    <div class="need-item reveal-item">
+      <span class="need-tag mono" data-i18n data-en="COMMON PROBLEM">PROBLEMA FRECUENTE</span>
+      <p class="need-problem" data-i18n data-en="Difficulty accessing financing.">Dificultad para acceder a financiamiento.</p>
+      <span class="need-arrow" aria-hidden="true">↓</span>
+      <span class="need-tag mono need-tag--gold" data-i18n data-en="OUR RESPONSE">NUESTRA RESPUESTA</span>
+      <p class="need-solution" data-i18n data-en="File preparation that strengthens your standing with lending institutions.">Preparación de expedientes que fortalecen su posición ante instituciones.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ NOSOTROS ═══ -->
+<section id="nosotros" class="ch">
+  <div class="ch-head">
+    <div>
+      <div class="eyebrow" style="margin-bottom:1.5rem;" data-i18n data-en="§01 — About us">§01 — Quiénes somos</div>
+      <h2 class="display display--lg" data-i18n data-en="From analysis to<br/><em>strategy.</em>">Del análisis a la<br/><em>estrategia.</em></h2>
+    </div>
+    <div class="ch-ref mono" data-i18n data-en="ONCE14 / MX-SON<br/>REF.ABOUT">ONCE14 / MX-SON<br/>REF.NOSOTROS</div>
+  </div>
+
+  <div class="about-wrap reveal">
+    <div class="about-left">
+      <div class="about-note">
+        <span class="about-note-num" data-i18n data-en="NOTE 01">NOTA 01</span>
+        <p class="about-big-q" data-i18n data-en="&quot;The 11 represents analysis: understanding the present before deciding. The 14 represents evolution: turning that analysis into sustainable results.&quot;">"El 11 representa el análisis: comprender el presente antes de decidir. El 14 representa la evolución: transformar ese análisis en resultados sostenibles."</p>
+      </div>
+    </div>
+    <div class="about-right">
+      <p data-i18n data-en="ONCE14 is a firm specialized in economic, financial and strategic consulting. It was born from a conviction: the business decisions that create real value combine information, analysis and long-term vision.">ONCE14 es una firma especializada en consultoría económica, financiera y estratégica. Nace de una convicción: las decisiones empresariales que generan verdadero valor combinan información, análisis y visión de largo plazo.</p>
+      <p data-i18n data-en="Our consulting doesn't compete with the accountant's or the CEO's role — it strengthens it. We bring an external, objective and specialized perspective that reinforces the organization's leadership and planning processes.">Nuestra consultoría no compite con las funciones del contador ni del director general — las potencia. Aportamos una perspectiva externa, objetiva y especializada que fortalece los procesos de dirección y planeación de la organización.</p>
+      <p data-i18n data-en="We start from a fundamental premise: every organization generates a significant volume of financial and operational information daily. That information only acquires strategic value when it is analyzed with technical rigor and turned into decisions with real impact on profitability, liquidity and business continuity.">Partimos de una premisa fundamental: toda organización genera diariamente un volumen significativo de información financiera y operativa. Esa información solo adquiere valor estratégico cuando es analizada con rigor técnico y convertida en decisiones con impacto real sobre la rentabilidad, la liquidez y la permanencia del negocio.</p>
+      <div class="ledger">
+        <div class="ledger-row">
+          <span class="ledger-num">11</span>
+          <p data-i18n data-en="Analysis and perspective. Understanding the financial structure, operations, market, risks and opportunities before deciding.">El análisis y la perspectiva. Comprender la estructura financiera, la operación, el mercado, los riesgos y las oportunidades antes de decidir.</p>
+        </div>
+        <div class="ledger-row">
+          <span class="ledger-num">14</span>
+          <p data-i18n data-en="Evolution and strategy. Turning analysis into decisions that generate sustainable value over time.">La evolución y la estrategia. La transformación del análisis en decisiones que generan valor sostenible en el tiempo.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FILOSOFÍA ═══ -->
+<div class="ch-full phil-bg">
+  <div class="ch-inner">
+    <div class="phil-inner reveal">
+      <div class="phil-left">
+        <div>
+          <div class="eyebrow on-dark" style="margin-bottom:1.5rem;" data-i18n data-en="§ — Our philosophy">§ — Nuestra filosofía</div>
+          <h2 class="display display--md on-dark" data-i18n data-en="Understand before<br/>you <em>decide.</em>">Comprender antes<br/>de <em>decidir.</em></h2>
+        </div>
+        <div class="phil-clauses">
+          <div class="phil-clause active"><span class="pc-num mono">CL.01</span><span class="pc-txt" data-i18n data-en="We believe in analyzing before deciding.">Creemos en analizar antes de decidir.</span></div>
+          <div class="phil-clause"><span class="pc-num mono">CL.02</span><span class="pc-txt" data-i18n data-en="We believe in projecting before investing.">Creemos en proyectar antes de invertir.</span></div>
+          <div class="phil-clause"><span class="pc-num mono">CL.03</span><span class="pc-txt" data-i18n data-en="We believe in structuring before growing.">Creemos en estructurar antes de crecer.</span></div>
+          <div class="phil-clause"><span class="pc-num mono">CL.04</span><span class="pc-txt" data-i18n data-en="We believe in verifiable information.">Creemos en la información verificable.</span></div>
+          <div class="phil-clause"><span class="pc-num mono">CL.05</span><span class="pc-txt" data-i18n data-en="We believe in long-term relationships.">Creemos en relaciones de largo plazo.</span></div>
+        </div>
+      </div>
+      <div class="phil-right">
+        <div class="phil-big" data-i18n data-en="Analyze.<br/>Interpret.<br/><em>Build.</em>">Analizo.<br/>Interpreto.<br/><em>Construyo.</em></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ SERVICIOS ═══ -->
+<section id="servicios" class="ch">
+  <div class="ch-head">
+    <div>
+      <div class="eyebrow" style="margin-bottom:1.5rem;" data-i18n data-en="§02 — Services">§02 — Servicios</div>
+      <h2 class="display display--lg" data-i18n data-en="Solutions for<br/>every <em>challenge.</em>">Soluciones para<br/>cada <em>reto.</em></h2>
+    </div>
+    <div class="ch-ref mono" data-i18n data-en="8 SERVICE LINES<br/>REF.SERVICES">08 LÍNEAS DE SERVICIO<br/>REF.SERVICIOS</div>
+  </div>
+
+  <div class="serv-layout reveal">
+    <div class="serv-index" id="servIndex">
+      <div class="serv-index-item active" data-panel="s1">
+        <span class="si-num">SRV.01</span>
+        <span class="si-text"><span class="si-name" data-i18n data-en="Financial Consulting">Consultoría Financiera</span><span class="si-teaser" data-i18n data-en="Diagnostics and profitability">Diagnóstico y rentabilidad</span></span>
+        <svg class="si-arr" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </div>
+      <div class="serv-index-item" data-panel="s2">
+        <span class="si-num">SRV.02</span>
+        <span class="si-text"><span class="si-name" data-i18n data-en="Economic Consulting">Consultoría Económica</span><span class="si-teaser" data-i18n data-en="Macro variables and market">Variables macro y mercado</span></span>
+        <svg class="si-arr" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </div>
+      <div class="serv-index-item" data-panel="s3">
+        <span class="si-num">SRV.03</span>
+        <span class="si-text"><span class="si-name" data-i18n data-en="Financial Planning">Planeación Financiera</span><span class="si-teaser" data-i18n data-en="Models and projections">Modelos y proyecciones</span></span>
+        <svg class="si-arr" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </div>
+      <div class="serv-index-item" data-panel="s4">
+        <span class="si-num">SRV.04</span>
+        <span class="si-text"><span class="si-name" data-i18n data-en="Investment Project Evaluation">Evaluación de Proyectos</span><span class="si-teaser" data-i18n data-en="NPV, IRR and feasibility">VPN, TIR y viabilidad</span></span>
+        <svg class="si-arr" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </div>
+      <div class="serv-index-item" data-panel="s5">
+        <span class="si-num">SRV.05</span>
+        <span class="si-text"><span class="si-name" data-i18n data-en="Business Plans">Planes de Negocio</span><span class="si-teaser" data-i18n data-en="Documents for investors">Documento para inversionistas</span></span>
+        <svg class="si-arr" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </div>
+      <div class="serv-index-item" data-panel="s6">
+        <span class="si-num">SRV.06</span>
+        <span class="si-text"><span class="si-name" data-i18n data-en="Financing Readiness">Preparación para Financiamiento</span><span class="si-teaser" data-i18n data-en="Loan files and repayment capacity">Expedientes y capacidad de pago</span></span>
+        <svg class="si-arr" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </div>
+      <div class="serv-index-item" data-panel="s7">
+        <span class="si-num">SRV.07</span>
+        <span class="si-text"><span class="si-name" data-i18n data-en="Strategic Planning &amp; KPIs">Planeación Estratégica &amp; KPIs</span><span class="si-teaser" data-i18n data-en="Indicators and dashboards">Indicadores y tableros</span></span>
+        <svg class="si-arr" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </div>
+      <div class="serv-index-item" data-panel="s8">
+        <span class="si-num">SRV.08</span>
+        <span class="si-text"><span class="si-name" data-i18n data-en="Corporate Training">Capacitación Empresarial</span><span class="si-teaser" data-i18n data-en="Tailored programs">Programas a la medida</span></span>
+        <svg class="si-arr" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </div>
+    </div>
+
+    <div class="serv-detail">
+      <div class="serv-panel-item active" id="s1">
+        <span class="serv-sublabel" data-i18n data-en="Financial diagnostics">Diagnóstico financiero</span>
+        <h3 class="serv-detail-title" data-i18n data-en="Financial<br/><em>Consulting</em>">Consultoría<br/><em>Financiera</em></h3>
+        <p data-i18n data-en="Finance is the language an organization uses to communicate its real performance. We provide diagnostic clarity on the business's economic situation, identify the highest-impact levers for improvement, and develop mechanisms that strengthen profitability, liquidity and long-term structural stability.">Las finanzas son el lenguaje con el que una organización comunica su desempeño real. Proporcionamos claridad diagnóstica sobre la situación económica del negocio, identificamos las palancas de mejora y desarrollamos mecanismos que fortalecen la rentabilidad, la liquidez y la estabilidad estructural de la empresa a largo plazo.</p>
+        <span class="serv-sublabel" data-i18n data-en="How we work">Cómo lo trabajamos</span>
+        <div class="serv-steps">
+          <div class="serv-step"><span class="serv-step-n">1</span><span data-i18n data-en="We diagnose the company's real financial situation: profitability, liquidity and cost structure.">Diagnosticamos la situación financiera real de la empresa: rentabilidad, liquidez y estructura de costos.</span></div>
+          <div class="serv-step"><span class="serv-step-n">2</span><span data-i18n data-en="We identify the improvement levers with the greatest short and medium-term impact.">Identificamos las palancas de mejora con mayor impacto en el corto y mediano plazo.</span></div>
+          <div class="serv-step"><span class="serv-step-n">3</span><span data-i18n data-en="We design and implement the mechanisms that strengthen long-term financial stability.">Diseñamos e implementamos los mecanismos que fortalecen la estabilidad financiera a largo plazo.</span></div>
+        </div>
+        <span class="serv-sublabel" data-i18n data-en="Includes">Incluye</span>
+        <div class="serv-chips">
+          <span class="chip" data-i18n data-en="Comprehensive financial diagnosis">Diagnóstico financiero integral</span>
+          <span class="chip" data-i18n data-en="Cash flow">Flujo de efectivo</span>
+          <span class="chip" data-i18n data-en="Budgets">Presupuestos</span>
+          <span class="chip" data-i18n data-en="Key indicators">Indicadores clave</span>
+          <span class="chip" data-i18n data-en="Financial modeling">Modelación financiera</span>
+          <span class="chip" data-i18n data-en="Sensitivity analysis">Análisis de sensibilidad</span>
+          <span class="chip" data-i18n data-en="Financial restructuring">Reestructuración financiera</span>
+          <span class="chip" data-i18n data-en="Financial scenarios">Escenarios financieros</span>
+        </div>
+        <div class="serv-meta">
+          <span class="serv-badge"><strong data-i18n data-en="Who it's for">Para quién</strong><span data-i18n data-en="Companies seeking clarity on their real financial performance">Empresas que buscan claridad sobre su desempeño financiero real</span></span>
+          <span class="serv-badge"><strong data-i18n data-en="Typical duration">Duración típica</strong><span data-i18n data-en="Initial diagnosis: 2–4 weeks">Diagnóstico inicial: 2 – 4 semanas</span></span>
+        </div>
+      </div>
+      <div class="serv-panel-item" id="s2">
+        <span class="serv-sublabel" data-i18n data-en="Macroeconomic analysis">Análisis macroeconómico</span>
+        <h3 class="serv-detail-title" data-i18n data-en="Economic<br/><em>Consulting</em>">Consultoría<br/><em>Económica</em></h3>
+        <p data-i18n data-en="Macroeconomic variables — inflation, exchange rates, interest rates — affect every organization's results regardless of internal management. We integrate economic analysis into the planning process so your company anticipates scenarios instead of reacting to them with resources already committed.">Las variables macroeconómicas —inflación, tipo de cambio, tasas de interés— modifican los resultados de cualquier organización independientemente de su gestión interna. Integramos el análisis económico al proceso de planeación para que su empresa anticipe escenarios en lugar de reaccionar ante ellos con recursos ya comprometidos.</p>
+        <span class="serv-sublabel" data-i18n data-en="How we work">Cómo lo trabajamos</span>
+        <div class="serv-steps">
+          <div class="serv-step"><span class="serv-step-n">1</span><span data-i18n data-en="We analyze the macroeconomic variables relevant to the company's sector and operations.">Analizamos las variables macroeconómicas relevantes para el sector y la operación de la empresa.</span></div>
+          <div class="serv-step"><span class="serv-step-n">2</span><span data-i18n data-en="We project market, exchange rate, inflation and interest rate scenarios.">Proyectamos escenarios de mercado, tipo de cambio, inflación y tasas de interés.</span></div>
+          <div class="serv-step"><span class="serv-step-n">3</span><span data-i18n data-en="We integrate the analysis into the planning process to anticipate, not react.">Integramos el análisis al proceso de planeación para anticipar, no reaccionar.</span></div>
+        </div>
+        <span class="serv-sublabel" data-i18n data-en="Includes">Incluye</span>
+        <div class="serv-chips">
+          <span class="chip" data-i18n data-en="Sector studies">Estudios sectoriales</span>
+          <span class="chip" data-i18n data-en="Economic projections">Proyecciones económicas</span>
+          <span class="chip" data-i18n data-en="Market analysis">Análisis de mercados</span>
+          <span class="chip" data-i18n data-en="Supply &amp; demand">Oferta y demanda</span>
+          <span class="chip" data-i18n data-en="Cost-benefit studies">Estudios costo-beneficio</span>
+          <span class="chip" data-i18n data-en="Economic impact assessment">Evaluación de impacto económico</span>
+        </div>
+        <div class="serv-meta">
+          <span class="serv-badge"><strong data-i18n data-en="Who it's for">Para quién</strong><span data-i18n data-en="Companies exposed to sector macroeconomic variables">Empresas expuestas a variables macroeconómicas del sector</span></span>
+          <span class="serv-badge"><strong data-i18n data-en="Typical duration">Duración típica</strong><span data-i18n data-en="Study: 3–6 weeks">Estudio: 3 – 6 semanas</span></span>
+        </div>
+      </div>
+      <div class="serv-panel-item" id="s3">
+        <span class="serv-sublabel" data-i18n data-en="Financial modeling">Modelación financiera</span>
+        <h3 class="serv-detail-title" data-i18n data-en="Financial<br/><em>Planning</em>">Planeación<br/><em>Financiera</em></h3>
+        <p data-i18n data-en="Financially sound organizations don't improvise in the face of change — they anticipate it. We develop tailored financial models that let you precisely visualize expected business performance and evaluate the impact of decisions before executing them with real capital.">Las organizaciones financieramente sólidas no improvisan ante los cambios —los anticipan. Desarrollamos modelos financieros a la medida que permiten visualizar con precisión el comportamiento esperado del negocio y evaluar el impacto de distintas decisiones antes de ejecutarlas con capital real.</p>
+        <span class="serv-sublabel" data-i18n data-en="How we work">Cómo lo trabajamos</span>
+        <div class="serv-steps">
+          <div class="serv-step"><span class="serv-step-n">1</span><span data-i18n data-en="We build the financial model tailored to the business.">Construimos el modelo financiero a la medida del negocio.</span></div>
+          <div class="serv-step"><span class="serv-step-n">2</span><span data-i18n data-en="We model optimistic, base and critical scenarios.">Modelamos escenarios optimista, base y crítico.</span></div>
+          <div class="serv-step"><span class="serv-step-n">3</span><span data-i18n data-en="We define the action plan and the tracking indicators.">Definimos el plan de acción y los indicadores de seguimiento.</span></div>
+        </div>
+        <span class="serv-sublabel" data-i18n data-en="Includes">Incluye</span>
+        <div class="serv-chips">
+          <span class="chip" data-i18n data-en="Annual budgets">Presupuestos anuales</span>
+          <span class="chip" data-i18n data-en="Multi-year planning">Planeación multianual</span>
+          <span class="chip" data-i18n data-en="Optimistic &amp; critical scenarios">Escenarios optimistas y críticos</span>
+          <span class="chip" data-i18n data-en="Projected cash flow">Flujo de efectivo proyectado</span>
+          <span class="chip" data-i18n data-en="Expansion &amp; financing planning">Planeación de expansión y financiamiento</span>
+        </div>
+        <div class="serv-meta">
+          <span class="serv-badge"><strong data-i18n data-en="Who it's for">Para quién</strong><span data-i18n data-en="Companies planning their next fiscal cycle or expansion">Empresas que planean su próximo ciclo fiscal o de expansión</span></span>
+          <span class="serv-badge"><strong data-i18n data-en="Typical duration">Duración típica</strong><span data-i18n data-en="3–5 weeks">3 – 5 semanas</span></span>
+        </div>
+      </div>
+      <div class="serv-panel-item" id="s4">
+        <span class="serv-sublabel" data-i18n data-en="Investment analysis">Análisis de inversión</span>
+        <h3 class="serv-detail-title" data-i18n data-en="Investment Project<br/><em>Evaluation</em>">Evaluación de<br/>Proyectos de <em>Inversión</em></h3>
+        <p data-i18n data-en="Every investment decision carries risk. Our role is to reduce it through technical analysis tools that determine a project's financial and economic feasibility before committing capital, time or strategic resources.">Toda decisión de inversión implica riesgo. Nuestra función es reducirlo mediante herramientas de análisis técnico que determinan la viabilidad financiera y económica de cada proyecto antes de comprometer capital, tiempo o recursos estratégicos de la organización.</p>
+        <span class="serv-sublabel" data-i18n data-en="How we work">Cómo lo trabajamos</span>
+        <div class="serv-steps">
+          <div class="serv-step"><span class="serv-step-n">1</span><span data-i18n data-en="We calculate the project's financial feasibility: NPV, IRR and break-even point.">Calculamos la viabilidad financiera del proyecto: VPN, TIR y punto de equilibrio.</span></div>
+          <div class="serv-step"><span class="serv-step-n">2</span><span data-i18n data-en="We simulate risk scenarios before capital is committed.">Simulamos escenarios de riesgo antes de comprometer capital.</span></div>
+          <div class="serv-step"><span class="serv-step-n">3</span><span data-i18n data-en="We deliver a technical opinion that supports the investment decision.">Entregamos un dictamen técnico que sustenta la decisión de inversión.</span></div>
+        </div>
+        <span class="serv-sublabel" data-i18n data-en="Includes">Incluye</span>
+        <div class="serv-chips">
+          <span class="chip" data-i18n data-en="NPV">VPN</span>
+          <span class="chip" data-i18n data-en="IRR">TIR</span>
+          <span class="chip" data-i18n data-en="Benefit-cost ratio">Relación Beneficio-Costo</span>
+          <span class="chip" data-i18n data-en="Break-even point">Punto de equilibrio</span>
+          <span class="chip" data-i18n data-en="Sensitivity analysis">Análisis de sensibilidad</span>
+          <span class="chip" data-i18n data-en="Risk scenario simulation">Simulación de escenarios de riesgo</span>
+        </div>
+        <div class="serv-meta">
+          <span class="serv-badge"><strong data-i18n data-en="Who it's for">Para quién</strong><span data-i18n data-en="Companies evaluating a specific investment project">Empresas evaluando un proyecto de inversión específico</span></span>
+          <span class="serv-badge"><strong data-i18n data-en="Typical duration">Duración típica</strong><span data-i18n data-en="3–6 weeks">3 – 6 semanas</span></span>
+        </div>
+      </div>
+      <div class="serv-panel-item" id="s5">
+        <span class="serv-sublabel" data-i18n data-en="Project formulation">Formulación de proyectos</span>
+        <h3 class="serv-detail-title" data-i18n data-en="Business<br/><em>Plans</em>">Planes de<br/><em>Negocio</em></h3>
+        <p data-i18n data-en="A professional business plan is the strategic document that articulates the financial and commercial logic of an initiative, defines its feasibility with technical support, and precisely communicates its potential to investors, financial institutions or government bodies.">Un plan de negocio profesional es el documento estratégico que articula la lógica financiera y comercial de una iniciativa, define su viabilidad con sustento técnico y comunica con precisión su potencial ante inversionistas, instituciones financieras u organismos gubernamentales.</p>
+        <span class="serv-sublabel" data-i18n data-en="How we work">Cómo lo trabajamos</span>
+        <div class="serv-steps">
+          <div class="serv-step"><span class="serv-step-n">1</span><span data-i18n data-en="We develop the market study and commercial strategy.">Desarrollamos el estudio de mercado y la estrategia comercial.</span></div>
+          <div class="serv-step"><span class="serv-step-n">2</span><span data-i18n data-en="We build the financial projections and expected cash flow.">Construimos las proyecciones financieras y el flujo de efectivo esperado.</span></div>
+          <div class="serv-step"><span class="serv-step-n">3</span><span data-i18n data-en="We integrate risk analysis and mitigation.">Integramos el análisis de riesgos y su mitigación.</span></div>
+        </div>
+        <span class="serv-sublabel" data-i18n data-en="Includes">Incluye</span>
+        <div class="serv-chips">
+          <span class="chip" data-i18n data-en="Market study">Estudio de mercado</span>
+          <span class="chip" data-i18n data-en="Commercial strategy">Estrategia comercial</span>
+          <span class="chip" data-i18n data-en="Financial projections">Proyecciones financieras</span>
+          <span class="chip" data-i18n data-en="Cash flow">Flujo de efectivo</span>
+          <span class="chip" data-i18n data-en="Risk analysis &amp; mitigation">Análisis de riesgos y mitigación</span>
+        </div>
+        <div class="serv-meta">
+          <span class="serv-badge"><strong data-i18n data-en="Who it's for">Para quién</strong><span data-i18n data-en="Companies seeking financing or formalizing their strategy">Empresas que buscan financiamiento o formalizar su estrategia</span></span>
+          <span class="serv-badge"><strong data-i18n data-en="Typical duration">Duración típica</strong><span data-i18n data-en="3–6 weeks">3 – 6 semanas</span></span>
+        </div>
+      </div>
+      <div class="serv-panel-item" id="s6">
+        <span class="serv-sublabel" data-i18n data-en="Loan file preparation">Preparación de expedientes</span>
+        <h3 class="serv-detail-title" data-i18n data-en="Financing<br/><em>Readiness</em>">Preparación para<br/><em>Financiamiento</em></h3>
+        <p data-i18n data-en="Financial institutions rigorously assess applicant companies' administrative and financial capacity. We technically prepare the organization for that process — from working capital and asset acquisition to agricultural and export credit — with the documentation and projections that maximize approval odds.">Las instituciones financieras evalúan con rigor la capacidad administrativa y financiera de las empresas solicitantes. Preparamos técnicamente a la organización para ese proceso —desde capital de trabajo y adquisición de activos hasta créditos agropecuarios y de exportación— con la solidez documental y las proyecciones que maximizan las probabilidades de aprobación.</p>
+        <span class="serv-sublabel" data-i18n data-en="How we work">Cómo lo trabajamos</span>
+        <div class="serv-steps">
+          <div class="serv-step"><span class="serv-step-n">1</span><span data-i18n data-en="We diagnose the company's real repayment capacity.">Diagnosticamos la capacidad de pago real de la empresa.</span></div>
+          <div class="serv-step"><span class="serv-step-n">2</span><span data-i18n data-en="We assemble the complete financial file: statements, projections and collateral.">Armamos el expediente financiero completo: estados, proyecciones y garantías.</span></div>
+          <div class="serv-step"><span class="serv-step-n">3</span><span data-i18n data-en="We prepare the executive presentation for the evaluating institution.">Preparamos la presentación ejecutiva ante la institución evaluadora.</span></div>
+        </div>
+        <span class="serv-sublabel" data-i18n data-en="Includes">Incluye</span>
+        <div class="serv-chips">
+          <span class="chip" data-i18n data-en="Financial files">Expedientes financieros</span>
+          <span class="chip" data-i18n data-en="Working capital">Capital de trabajo</span>
+          <span class="chip" data-i18n data-en="Asset acquisition">Adquisición de activos</span>
+          <span class="chip" data-i18n data-en="Agricultural &amp; export credit">Créditos agropecuarios y de exportación</span>
+          <span class="chip" data-i18n data-en="Liability restructuring">Reestructuración de pasivos</span>
+          <span class="chip" data-i18n data-en="Financial runs">Corridas financieras</span>
+          <span class="chip" data-i18n data-en="Projected statements">Estados proyectados</span>
+          <span class="chip" data-i18n data-en="Repayment capacity assessment">Evaluación de capacidad de pago</span>
+          <span class="chip" data-i18n data-en="Executive presentations">Presentaciones ejecutivas</span>
+        </div>
+        <div class="serv-meta">
+          <span class="serv-badge"><strong data-i18n data-en="Who it's for">Para quién</strong><span data-i18n data-en="Companies applying for financing">Empresas en proceso de solicitar financiamiento</span></span>
+          <span class="serv-badge"><strong data-i18n data-en="Typical duration">Duración típica</strong><span data-i18n data-en="2–4 weeks">2 – 4 semanas</span></span>
+        </div>
+        <p class="serv-nota" data-i18n data-en="ONCE14 does not act as a financial intermediary and does not guarantee loan or grant approval. Our role is the project's technical preparation.">ONCE14 no actúa como intermediario financiero ni garantiza la autorización de créditos o apoyos. Nuestra función es la preparación técnica del proyecto.</p>
+      </div>
+      <div class="serv-panel-item" id="s7">
+        <span class="serv-sublabel" data-i18n data-en="Indicator-driven management">Gestión por indicadores</span>
+        <h3 class="serv-detail-title" data-i18n data-en="Strategic Planning<br/>&amp; <em>KPIs</em>">Planeación Estratégica<br/>&amp; <em>KPIs</em></h3>
+        <p data-i18n data-en="Organizations that scale sustainably don't operate by reaction — they operate by design. We align every area of the company toward shared strategic objectives and build indicator systems that monitor, in real time, what truly determines business performance.">Las organizaciones que escalan de forma sostenible no operan por reacción —lo hacen por diseño. Alineamos todas las áreas de la empresa hacia objetivos estratégicos comunes y construimos sistemas de indicadores que permiten monitorear en tiempo real lo que verdaderamente determina el desempeño del negocio.</p>
+        <span class="serv-sublabel" data-i18n data-en="How we work">Cómo lo trabajamos</span>
+        <div class="serv-steps">
+          <div class="serv-step"><span class="serv-step-n">1</span><span data-i18n data-en="We align company areas toward shared strategic objectives.">Alineamos las áreas de la empresa hacia objetivos estratégicos comunes.</span></div>
+          <div class="serv-step"><span class="serv-step-n">2</span><span data-i18n data-en="We design the indicator system that reflects real business performance.">Diseñamos el sistema de indicadores que refleja el desempeño real del negocio.</span></div>
+          <div class="serv-step"><span class="serv-step-n">3</span><span data-i18n data-en="We implement the control dashboard and the follow-up routine.">Implementamos el tablero de control y la rutina de seguimiento.</span></div>
+        </div>
+        <span class="serv-sublabel" data-i18n data-en="Includes">Incluye</span>
+        <div class="serv-chips">
+          <span class="chip">Balanced Scorecard</span>
+          <span class="chip" data-i18n data-en="Control dashboards">Tableros de control</span>
+          <span class="chip" data-i18n data-en="Financial &amp; operational KPIs">KPIs financieros y operativos</span>
+          <span class="chip" data-i18n data-en="Ongoing strategic tracking">Seguimiento estratégico continuo</span>
+        </div>
+        <div class="serv-meta">
+          <span class="serv-badge"><strong data-i18n data-en="Who it's for">Para quién</strong><span data-i18n data-en="Companies looking to monitor performance in real time">Empresas que buscan monitorear su desempeño en tiempo real</span></span>
+          <span class="serv-badge"><strong data-i18n data-en="Typical duration">Duración típica</strong><span data-i18n data-en="Implementation: 4–8 weeks">Implementación: 4 – 8 semanas</span></span>
+        </div>
+      </div>
+      <div class="serv-panel-item" id="s8">
+        <span class="serv-sublabel" data-i18n data-en="Business training">Formación empresarial</span>
+        <h3 class="serv-detail-title" data-i18n data-en="Corporate<br/><em>Training</em>">Capacitación<br/><em>Empresarial</em></h3>
+        <p data-i18n data-en="An organization grows sustainably when its teams understand, interpret and act on financial information with sound judgment. We design specialized programs for business owners, executives and administrative staff, in-person, virtual or in-company.">Una organización crece sostenidamente cuando sus equipos comprenden, interpretan y actúan sobre la información financiera con criterio. Diseñamos programas especializados para empresarios, directivos y personal administrativo en modalidad presencial, virtual o in-company.</p>
+        <span class="serv-sublabel" data-i18n data-en="How we work">Cómo lo trabajamos</span>
+        <div class="serv-steps">
+          <div class="serv-step"><span class="serv-step-n">1</span><span data-i18n data-en="We assess the team's level of financial literacy.">Diagnosticamos el nivel de cultura financiera del equipo.</span></div>
+          <div class="serv-step"><span class="serv-step-n">2</span><span data-i18n data-en="We design the program tailored to the participants' profile.">Diseñamos el programa a la medida del perfil de los participantes.</span></div>
+          <div class="serv-step"><span class="serv-step-n">3</span><span data-i18n data-en="We deliver the training in person, virtually or in-company.">Impartimos la capacitación en modalidad presencial, virtual o in-company.</span></div>
+        </div>
+        <span class="serv-sublabel" data-i18n data-en="Includes">Incluye</span>
+        <div class="serv-chips">
+          <span class="chip" data-i18n data-en="Finance for business owners">Finanzas para empresarios</span>
+          <span class="chip" data-i18n data-en="Financial statement interpretation">Interpretación de estados financieros</span>
+          <span class="chip" data-i18n data-en="Financial planning">Planeación financiera</span>
+          <span class="chip" data-i18n data-en="Financial literacy">Cultura financiera</span>
+          <span class="chip" data-i18n data-en="KPIs &amp; dashboards">KPIs y tableros</span>
+        </div>
+        <div class="serv-meta">
+          <span class="serv-badge"><strong data-i18n data-en="Who it's for">Para quién</strong><span data-i18n data-en="Executive and administrative teams looking to strengthen their financial judgment">Equipos directivos y administrativos que buscan fortalecer su criterio financiero</span></span>
+          <span class="serv-badge"><strong data-i18n data-en="Typical duration">Duración típica</strong><span data-i18n data-en="Programs from 1 intensive session">Programas desde 1 sesión intensiva</span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ PÓLIZAS ═══ -->
+<section id="polizas" class="ch-full pol-bg">
+  <div class="ch-inner">
+    <div class="ch-head">
+      <div>
+        <div class="eyebrow on-dark" style="margin-bottom:1.5rem;" data-i18n data-en="§03 — Ongoing consulting model">§03 — Modelo de consultoría continua</div>
+        <h2 class="display display--lg on-dark" data-i18n data-en="Support<br/>that <em>lasts.</em>">Acompañamiento<br/>que <em>perdura.</em></h2>
+      </div>
+      <div class="ch-ref mono on-dark" data-i18n data-en="3 INSTRUMENTS<br/>REF.RETAINERS">3 INSTRUMENTOS<br/>REF.POLIZAS</div>
+    </div>
+    <p class="body-lg on-dark" style="margin-top:1rem;max-width:580px;" data-i18n data-en="Most consulting engagements end when a diagnosis is delivered. The real challenge starts afterward. Our retainers guarantee implementation, follow-up and adjustment for 12 continuous months.">La mayoría de las consultorías concluyen al entregar un diagnóstico. El verdadero desafío comienza después. Nuestras pólizas garantizan implementación, seguimiento y ajuste durante 12 meses continuos.</p>
+    <div class="pol-cards reveal-group">
+      <div class="pol-card reveal-item">
+        <div class="pol-card-header">
+          <span class="pc-badge"><span data-i18n data-en="Retainer">Póliza</span> <span>INSTR.01</span></span>
+          <span class="pc-name">MIPYMES</span>
+          <p class="pc-desc" data-i18n data-en="For micro, small and medium businesses looking to get their finances in order and grow on solid ground. Order, planning and control as the starting point.">Para micro, pequeñas y medianas empresas que buscan ordenar sus finanzas y crecer con bases sólidas. Orden, planeación y control como punto de partida.</p>
+        </div>
+        <div class="pc-price"><span class="pc-amt">$1,500</span><span class="pc-per" data-i18n data-en="MXN / month">MXN / mes</span></div>
+        <div class="pol-features">
+          <div class="pf-row" data-i18n data-en="Initial financial diagnosis">Diagnóstico financiero inicial</div>
+          <div class="pf-row" data-i18n data-en="Cash flow">Flujo de efectivo</div>
+          <div class="pf-row" data-i18n data-en="Financial planning">Planeación financiera</div>
+          <div class="pf-row" data-i18n data-en="Business plan">Plan de negocios</div>
+          <div class="pf-row" data-i18n data-en="Financial KPIs">Indicadores financieros (KPIs)</div>
+          <div class="pf-row" data-i18n data-en="Financing readiness">Preparación para financiamiento</div>
+          <div class="pf-row" data-i18n data-en="12-month ongoing follow-up">Seguimiento permanente 12 meses</div>
+        </div>
+        <div class="pol-card-footer"><a href="#contacto"><span data-i18n data-en="Request information">Solicitar información</span> <svg viewBox="0 0 24 24" width="12" height="12" stroke="currentColor" fill="none" stroke-width="1.8" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a></div>
+      </div>
+      <div class="pol-card reveal-item">
+        <div class="pol-card-header">
+          <span class="pc-badge"><span data-i18n data-en="Retainer">Póliza</span> <span>INSTR.02</span></span>
+          <span class="pc-name" data-i18n data-en="Industry &amp; Services">Industria y Servicios</span>
+          <p class="pc-desc" data-i18n data-en="For established organizations that require a higher level of analysis and ongoing strategic support with a long-term vision.">Para organizaciones consolidadas que requieren un nivel superior de análisis y un acompañamiento estratégico permanente con visión de largo plazo.</p>
+        </div>
+        <div class="pc-price"><span class="pc-amt">$2,000</span><span class="pc-per" data-i18n data-en="MXN / month">MXN / mes</span></div>
+        <div class="pol-features">
+          <div class="pf-row" data-i18n data-en="Comprehensive financial diagnosis">Diagnóstico financiero integral</div>
+          <div class="pf-row" data-i18n data-en="Profitability &amp; cost evaluation">Evaluación de rentabilidad y costos</div>
+          <div class="pf-row" data-i18n data-en="Financial projections">Proyecciones financieras</div>
+          <div class="pf-row" data-i18n data-en="Strategic planning">Planeación estratégica</div>
+          <div class="pf-row" data-i18n data-en="Financial &amp; operational indicators">Indicadores financieros y operativos</div>
+          <div class="pf-row" data-i18n data-en="Investment evaluation">Evaluación de inversiones</div>
+          <div class="pf-row" data-i18n data-en="Ongoing financial follow-up">Seguimiento financiero continuo</div>
+        </div>
+        <div class="pol-card-footer"><a href="#contacto"><span data-i18n data-en="Request information">Solicitar información</span> <svg viewBox="0 0 24 24" width="12" height="12" stroke="currentColor" fill="none" stroke-width="1.8" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a></div>
+      </div>
+      <div class="pol-card reveal-item">
+        <div class="pol-card-header">
+          <span class="pc-badge"><span data-i18n data-en="Retainer">Póliza</span> <span>INSTR.03</span></span>
+          <span class="pc-name" data-i18n data-en="Agribusiness">Agronegocios</span>
+          <p class="pc-desc" data-i18n data-en="Designed for agrifood-sector companies facing the unique challenges of production cycles, international markets and weather conditions.">Diseñada para empresas del sector agroalimentario que enfrentan los desafíos únicos de los ciclos productivos, mercados internacionales y condiciones climáticas.</p>
+        </div>
+        <div class="pc-price"><span class="pc-amt">$2,500</span><span class="pc-per" data-i18n data-en="MXN / month">MXN / mes</span></div>
+        <div class="pol-features">
+          <div class="pf-row" data-i18n data-en="Specialized financial diagnosis">Diagnóstico financiero especializado</div>
+          <div class="pf-row" data-i18n data-en="Crop-cycle evaluation">Evaluación por ciclo agrícola</div>
+          <div class="pf-row" data-i18n data-en="Seasonal cash flow">Flujo de efectivo por temporada</div>
+          <div class="pf-row" data-i18n data-en="Sector-specific agricultural KPIs">KPIs agrícolas específicos</div>
+          <div class="pf-row" data-i18n data-en="Agricultural credit readiness">Preparación para créditos agropecuarios</div>
+          <div class="pf-row" data-i18n data-en="Sector-specific business plans">Planes de negocio sectoriales</div>
+          <div class="pf-row" data-i18n data-en="Ongoing follow-up">Seguimiento permanente</div>
+        </div>
+        <div class="pol-card-footer"><a href="#contacto"><span data-i18n data-en="Request information">Solicitar información</span> <svg viewBox="0 0 24 24" width="12" height="12" stroke="currentColor" fill="none" stroke-width="1.8" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a></div>
+      </div>
+    </div>
+    <p class="pol-note" data-i18n data-en="Each retainer requires an advance equal to the first month's fee to begin the project. Minimum term: 12 months.">Cada póliza requiere un anticipo equivalente a la primera mensualidad para el inicio del proyecto. Vigencia mínima: 12 meses.</p>
+  </div>
+</section>
+
+<!-- ═══ METODOLOGÍA ═══ -->
+<section id="metodologia" class="ch">
+  <div class="ch-head">
+    <div>
+      <div class="eyebrow" style="margin-bottom:1.5rem;" data-i18n data-en="— Our process">— Proceso de trabajo</div>
+      <h2 class="display display--lg" data-i18n data-en="Five stages.<br/><em>One result.</em>">Cinco etapas.<br/><em>Un resultado.</em></h2>
+    </div>
+    <div class="ch-ref mono" data-i18n data-en="REF.PROCESS">REF.METODOLOGIA</div>
+  </div>
+  <div class="met-track reveal-group">
+    <div class="met-step reveal-item"><div class="met-num mono">ETAPA.01</div><h4 data-i18n data-en="Diagnosis">Diagnóstico</h4><p data-i18n data-en="We analyze the financial, operational and strategic structure to precisely identify strengths, risks and opportunities for improvement.">Analizamos la estructura financiera, operativa y estratégica para identificar con precisión fortalezas, riesgos y oportunidades de mejora.</p></div>
+    <div class="met-step reveal-item"><div class="met-num mono">ETAPA.02</div><h4 data-i18n data-en="Planning">Planeación</h4><p data-i18n data-en="We design strategies calibrated to the business's objectives, with performance indicators and quantifiable goals from the start.">Diseñamos estrategias calibradas a los objetivos del negocio, con indicadores de desempeño y metas cuantificables desde el inicio.</p></div>
+    <div class="met-step reveal-item"><div class="met-num mono">ETAPA.03</div><h4 data-i18n data-en="Implementation">Implementación</h4><p data-i18n data-en="We develop the concrete tools that put the strategy into action: budgets, projections, cash flows and control dashboards.">Desarrollamos las herramientas concretas que materializan la estrategia: presupuestos, proyecciones, flujos y tableros de control.</p></div>
+    <div class="met-step reveal-item"><div class="met-num mono">ETAPA.04</div><h4 data-i18n data-en="Follow-up">Seguimiento</h4><p data-i18n data-en="Periodic reviews to assess progress, catch deviations early, and propose adjustments that keep the strategic course on track.">Revisiones periódicas para evaluar avance, detectar desviaciones anticipadamente y proponer ajustes que preserven el rumbo estratégico.</p></div>
+    <div class="met-step reveal-item"><div class="met-num mono">ETAPA.05</div><h4 data-i18n data-en="Continuous improvement">Mejora continua</h4><p data-i18n data-en="Information from each cycle feeds a permanent optimization process that enables agile adaptation to new conditions.">La información de cada ciclo alimenta un proceso permanente de optimización que permite adaptarse con agilidad a nuevas condiciones.</p></div>
+  </div>
+</section>
+
+<!-- ═══ PROMESA ═══ -->
+<div class="ch-full promesa-bg">
+  <div class="ch-inner">
+    <div class="eyebrow on-dark" style="margin-bottom:1.5rem;" data-i18n data-en="— Value promise">— Promesa de valor</div>
+    <h2 class="display display--lg on-dark" data-i18n data-en="Three questions.<br/><em>One methodology.</em>">Tres preguntas.<br/><em>Una metodología.</em></h2>
+    <div class="promesa-stmt reveal-group">
+      <div class="ps-cell reveal-item"><p class="ps-q" data-i18n data-en="Where are we today?">¿Dónde estamos hoy?</p><p class="ps-a" data-i18n data-en="An objective, technically rigorous analysis of the company's current financial and economic situation. The real starting point, free of bias or assumptions.">Análisis objetivo y técnicamente riguroso de la situación financiera y económica actual de la empresa. El punto de partida real, sin sesgos ni suposiciones.</p></div>
+      <div class="ps-cell reveal-item"><p class="ps-q" data-i18n data-en="Where do we want to go?">¿Hacia dónde queremos llegar?</p><p class="ps-a" data-i18n data-en="Clear, measurable, time-bound strategic objectives, aligned with the business's vision and its potential for verifiable, sustainable growth.">Objetivos estratégicos claros, medibles y temporalmente acotados, alineados con la visión del negocio y su potencial de crecimiento sostenible verificable.</p></div>
+      <div class="ps-cell reveal-item"><p class="ps-q" data-i18n data-en="How will we get there?">¿Cómo vamos a lograrlo?</p><p class="ps-a" data-i18n data-en="Financial tools, management indicators and implementation strategies that turn objectives into concrete actions with verifiable impact.">Herramientas financieras, indicadores de gestión y estrategias de implementación que traducen los objetivos en acciones concretas con impacto verificable.</p></div>
+    </div>
+    <p class="promesa-coda" data-i18n data-en="Consulting doesn't end with a report. <span>It begins when that analysis generates real growth.</span>">La consultoría no concluye con un informe. <span>Comienza cuando ese análisis genera crecimiento real.</span></p>
+  </div>
+</div>
+
+<!-- ═══ PROYECTOS ═══ -->
+<section id="proyectos" class="ch">
+  <div class="ch-head">
+    <div>
+      <div class="eyebrow" style="margin-bottom:1.5rem;" data-i18n data-en="§04 — Completed work">§04 — Trabajos realizados</div>
+      <h2 class="display display--lg" data-i18n data-en="Consulting that<br/>leaves a <em>mark.</em>">Consultoría que<br/>deja <em>huella.</em></h2>
+    </div>
+    <div class="ch-ref mono" data-i18n data-en="REF.PROJECTS">REF.PROYECTOS</div>
+  </div>
+  <p class="body-lg" style="margin-top:-1.5rem;margin-bottom:1rem;max-width:560px;" data-i18n data-en="Every project reflects our methodology in action: technical analysis, personalized strategy and ongoing support that translate into stronger decisions and more profitable organizations.">Cada proyecto refleja nuestra metodología en acción: análisis técnico, estrategia personalizada y acompañamiento continuo que se traducen en decisiones más sólidas y organizaciones más rentables.</p>
+
+  <div class="proy-list reveal-group">
+    <a href="https://mx1416client.capitaltrg.com" target="_blank" rel="noopener" class="proy-item reveal-item">
+      <span class="proy-idx">EXP.01<small>2024</small></span>
+      <div class="proy-body">
+        <span class="proy-sector" data-i18n data-en="Financial Consulting · Strategic Planning">Consultoría Financiera · Planeación Estratégica</span>
+        <h3 class="proy-title" data-i18n data-en="Financial structuring and sustainable growth model">Estructuración financiera y modelo de crecimiento sostenible</h3>
+        <p class="proy-desc" data-i18n data-en="A comprehensive engagement aimed at strengthening the organization's financial architecture. It includes a profitability diagnosis, management indicator design and a budgeting model that aligns available resources with long-term strategic objectives, delivering clarity on the business's true performance.">Intervención integral orientada a robustecer la arquitectura financiera de la organización. Comprende diagnóstico de rentabilidad, diseño de indicadores de gestión y construcción de un modelo presupuestal que alinea los recursos disponibles con los objetivos estratégicos de largo plazo, generando claridad sobre el verdadero desempeño del negocio.</p>
+      </div>
+      <span class="proy-cta"><span data-i18n data-en="View full project">Ver proyecto completo</span> <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+    </a>
+
+    <a href="https://mx120524sonclient.capitaltrg.com" target="_blank" rel="noopener" class="proy-item reveal-item">
+      <span class="proy-idx">EXP.02<small>2024</small></span>
+      <div class="proy-body">
+        <span class="proy-sector" data-i18n data-en="Project Evaluation · Access to Financing">Evaluación de Proyectos · Acceso a Financiamiento</span>
+        <h3 class="proy-title" data-i18n data-en="Economic feasibility and credit-readiness in Sonora">Viabilidad económica y preparación para acceso a crédito en Sonora</h3>
+        <p class="proy-desc" data-i18n data-en="Development of an economic and financial feasibility study for an expansion project in the state of Sonora. It includes modeling of projected cash flows, risk-scenario analysis and the technical structuring of the file for submission to financial institutions — maximizing approval odds with solid, well-grounded information.">Desarrollo de un estudio de viabilidad económica y financiera para un proyecto de expansión en el estado de Sonora. Incluye modelación de flujos de efectivo proyectados, análisis de escenarios de riesgo y estructuración técnica del expediente para presentación ante instituciones financieras — maximizando las probabilidades de aprobación con información sólida y bien fundamentada.</p>
+      </div>
+      <span class="proy-cta"><span data-i18n data-en="View full project">Ver proyecto completo</span> <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+    </a>
+
+    <a href="https://mx22072691client.capitaltrg.com" target="_blank" rel="noopener" class="proy-item reveal-item">
+      <span class="proy-idx">EXP.03<small>2025</small></span>
+      <div class="proy-body">
+        <span class="proy-sector" data-i18n data-en="Retainer Program · Management Control · KPIs">Póliza de Acompañamiento · Control de Gestión · KPIs</span>
+        <h3 class="proy-title" data-i18n data-en="Financial control dashboard and ongoing consulting rollout">Tablero de control financiero e implementación de consultoría continua</h3>
+        <p class="proy-desc" data-i18n data-en="Design and implementation of a comprehensive system of financial and operational indicators for a company with complex production cycles. The project includes an executive control dashboard, monthly review routines, and a structured decision-making process built on up-to-date information — turning operational data into actionable strategic intelligence.">Diseño e implementación de un sistema integral de indicadores financieros y operativos para una empresa con ciclos productivos complejos. El proyecto incluye tablero de control ejecutivo, rutinas de revisión mensual y un proceso estructurado de toma de decisiones sustentado en información actualizada — transformando datos operativos en inteligencia estratégica accionable.</p>
+      </div>
+      <span class="proy-cta"><span data-i18n data-en="View full project">Ver proyecto completo</span> <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+    </a>
+  </div>
+</section>
+
+<!-- ═══ SECTORES ═══ -->
+<section id="sectores" class="ch">
+  <div class="ch-head">
+    <div>
+      <div class="eyebrow" style="margin-bottom:1.5rem;" data-i18n data-en="— Industries we serve">— Sectores que atendemos</div>
+      <h2 class="display display--lg" data-i18n data-en="Present in every<br/>relevant <em>industry.</em>">Presencia en cada<br/><em>industria relevante.</em></h2>
+    </div>
+    <div class="ch-ref mono" data-i18n data-en="REF.INDUSTRIES">REF.SECTORES</div>
+  </div>
+  <div class="sect-grid reveal-group">
+    <div class="sect-cell reveal-item"><h4 data-i18n data-en="Agrifood">Agroalimentario</h4><div class="tags">
+      <span class="tag" data-i18n data-en="Agriculture">Agricultura</span>
+      <span class="tag" data-i18n data-en="Horticulture">Horticultura</span>
+      <span class="tag" data-i18n data-en="Fruit farming">Fruticultura</span>
+      <span class="tag" data-i18n data-en="Livestock">Ganadería</span>
+      <span class="tag" data-i18n data-en="Aquaculture">Acuacultura</span>
+      <span class="tag" data-i18n data-en="Fishing">Pesca</span>
+      <span class="tag" data-i18n data-en="Agroindustry">Agroindustria</span>
+      <span class="tag" data-i18n data-en="Packing plants">Empacadoras</span>
+      <span class="tag" data-i18n data-en="Agri-exporters">Agroexportadoras</span>
+    </div></div>
+    <div class="sect-cell reveal-item"><h4 data-i18n data-en="Trade">Comercio</h4><div class="tags">
+      <span class="tag" data-i18n data-en="Wholesalers">Mayoristas</span>
+      <span class="tag" data-i18n data-en="Retailers">Minoristas</span>
+      <span class="tag" data-i18n data-en="Distributors">Distribuidores</span>
+      <span class="tag" data-i18n data-en="Specialty stores">Tiendas especializadas</span>
+      <span class="tag" data-i18n data-en="Import &amp; export">Importación y exportación</span>
+    </div></div>
+    <div class="sect-cell reveal-item"><h4 data-i18n data-en="Industry">Industria</h4><div class="tags">
+      <span class="tag" data-i18n data-en="Manufacturing">Manufactura</span>
+      <span class="tag" data-i18n data-en="Food processing">Procesamiento de alimentos</span>
+      <span class="tag" data-i18n data-en="Industrial workshops">Talleres industriales</span>
+      <span class="tag" data-i18n data-en="Metalworking">Metalmecánica</span>
+      <span class="tag" data-i18n data-en="Maquiladoras">Maquiladoras</span>
+    </div></div>
+    <div class="sect-cell reveal-item"><h4 data-i18n data-en="Services">Servicios</h4><div class="tags">
+      <span class="tag" data-i18n data-en="Clinics &amp; hospitals">Clínicas y hospitales</span>
+      <span class="tag" data-i18n data-en="Professional firms">Despachos profesionales</span>
+      <span class="tag" data-i18n data-en="Technology">Tecnología</span>
+      <span class="tag" data-i18n data-en="Logistics">Logística</span>
+      <span class="tag" data-i18n data-en="Tourism">Turismo</span>
+      <span class="tag" data-i18n data-en="Education">Educación</span>
+    </div></div>
+    <div class="sect-cell reveal-item"><h4 data-i18n data-en="Construction">Construcción</h4><div class="tags">
+      <span class="tag" data-i18n data-en="Construction firms">Constructoras</span>
+      <span class="tag" data-i18n data-en="Developers">Desarrolladores</span>
+      <span class="tag" data-i18n data-en="Infrastructure">Infraestructura</span>
+      <span class="tag" data-i18n data-en="Contractors">Contratistas</span>
+    </div></div>
+    <div class="sect-cell reveal-item"><h4 data-i18n data-en="Family Businesses">Empresas Familiares</h4><div class="tags">
+      <span class="tag" data-i18n data-en="Professionalization">Profesionalización</span>
+      <span class="tag" data-i18n data-en="Corporate governance">Gobierno corporativo</span>
+      <span class="tag" data-i18n data-en="Orderly growth">Crecimiento ordenado</span>
+      <span class="tag" data-i18n data-en="Generational continuity">Continuidad generacional</span>
+    </div></div>
+  </div>
+</section>
+
+<!-- ═══ FAQ ═══ -->
+<section id="faq" class="ch">
+  <div class="eyebrow" style="margin-bottom:1.5rem;" data-i18n data-en="— Frequently asked questions">— Preguntas frecuentes</div>
+  <h2 class="display display--lg" data-i18n data-en="Clarity<br/>above <em>all.</em>">Claridad<br/>ante <em>todo.</em></h2>
+  <div class="faq-list reveal">
+    <div class="faq-row"><button class="faq-q"><span class="faq-q-t" data-i18n data-en="Does ONCE14 replace my accountant or accounting firm?">¿ONCE14 sustituye a mi contador o despacho contable?</span><svg class="faq-ico" viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button><div class="faq-a" data-i18n data-en="No. The accountant records, classifies and files accounting and tax information under applicable rules. ONCE14 takes that information as the starting point to analyze it strategically and turn it into decision-making tools. Both roles are complementary and equally necessary.">No. El contador registra, clasifica y presenta la información contable y fiscal conforme a las normas aplicables. ONCE14 toma esa información como punto de partida para analizarla estratégicamente y transformarla en herramientas de decisión. Ambas funciones son complementarias e igualmente necesarias.</div></div>
+    <div class="faq-row"><button class="faq-q"><span class="faq-q-t" data-i18n data-en="Can you arrange or guarantee me a loan?">¿Pueden gestionar o garantizarme un crédito?</span><svg class="faq-ico" viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button><div class="faq-a" data-i18n data-en="We do not act as financial intermediaries. Our role is to technically prepare the company through diagnostics, projections and specialized documentation that strengthens its standing with evaluating institutions. The approval decision rests exclusively with the financial institution.">No actuamos como intermediarios financieros. Nuestra función es preparar técnicamente a la empresa mediante diagnósticos, proyecciones y documentación especializada que fortalezca su posición frente a las instituciones evaluadoras. La decisión de autorización corresponde exclusivamente a la institución financiera.</div></div>
+    <div class="faq-row"><button class="faq-q"><span class="faq-q-t" data-i18n data-en="Do you only work with large companies?">¿Trabajan solo con empresas de gran escala?</span><svg class="faq-ico" viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button><div class="faq-a" data-i18n data-en="No. We work with micro-businesses, small and medium enterprises, established organizations and large investment projects. The scale of the engagement is always calibrated to the client's specific needs and objectives.">No. Trabajamos con microempresas, pequeñas y medianas empresas, organizaciones consolidadas y grandes proyectos de inversión. La escala de la intervención se calibra siempre a las necesidades y objetivos específicos del cliente.</div></div>
+    <div class="faq-row"><button class="faq-q"><span class="faq-q-t" data-i18n data-en="Do you serve clients outside Sonora or Mexico?">¿Atienden clientes fuera de Sonora o de México?</span><svg class="faq-ico" viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button><div class="faq-a" data-i18n data-en="Yes. We provide in-person and virtual services anywhere in Mexico, and we have representation in Commerce, California, for clients and projects in the United States. Depending on the nature of the project, we can also provide consulting for other international markets.">Sí. Prestamos servicios presenciales y virtuales en cualquier parte de México, y contamos con representación en Commerce, California, para clientes y proyectos en Estados Unidos. Dependiendo de la naturaleza del proyecto, también podemos desarrollar consultoría para otros mercados internacionales.</div></div>
+    <div class="faq-row"><button class="faq-q"><span class="faq-q-t" data-i18n data-en="Do retainers have a minimum term?">¿Las pólizas tienen permanencia mínima?</span><svg class="faq-ico" viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button><div class="faq-a" data-i18n data-en="Yes, twelve months. Implementing financial tools and strategic follow-up requires time continuity to deliver consistent, measurable results.">Sí, doce meses. La implementación de herramientas financieras y el seguimiento estratégico requieren continuidad temporal para rendir resultados consistentes y medibles.</div></div>
+    <div class="faq-row"><button class="faq-q"><span class="faq-q-t" data-i18n data-en="What guarantees exist regarding confidentiality?">¿Qué garantías existen sobre confidencialidad?</span><svg class="faq-ico" viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button><div class="faq-a" data-i18n data-en="All financial and strategic information shared by our clients is treated under the strictest professional confidentiality standards, and is used exclusively for the development of the contracted project. This principle is non-negotiable for the firm.">Toda la información financiera y estratégica compartida por nuestros clientes se trata con los más estrictos estándares de confidencialidad profesional, y se utiliza exclusivamente para el desarrollo del proyecto contratado. Este principio es irrenunciable para la firma.</div></div>
+  </div>
+</section>
+
+<!-- ═══ CONTACTO ═══ -->
+<section id="contacto" class="ch-full cta-bg">
+  <div class="ch-inner cta-inner">
+    <div class="cta-top reveal">
+      <div>
+        <div class="eyebrow on-dark" style="margin-bottom:1.25rem;" data-i18n data-en="§05 — Contact">§05 — Contacto</div>
+        <h2 class="display display--md on-dark" data-i18n data-en="Every decision<br/>starts with a<br/><em>conversation.</em>">Toda decisión<br/>comienza con una<br/><em>conversación.</em></h2>
+        <p class="cta-manifesto" style="margin-top:2rem;" data-i18n data-en="The first meeting is to listen to your needs and propose the most suitable option. <span>No cost. No commitment.</span>">La primera reunión es para escuchar sus necesidades y proponer la alternativa más adecuada. <span>Sin costo. Sin compromiso.</span></p>
+        <a href="mailto:contacto@once14.com" class="btn btn-solid" style="margin-top:2rem;"><span data-i18n data-en="Write to us">Escribir ahora</span> <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+      </div>
+      <div class="cta-instr">
+        <p data-i18n data-en="Write to us. <strong>For a fast, precise response, describe the core topic of your inquiry in the subject line and include specific details, objectives and relevant information in the message body.</strong> Our team will prepare a strategic response tailored to your situation.">Escríbanos. <strong>Para una atención ágil y precisa, describa en el asunto el tema central de su consulta y en el cuerpo del mensaje los detalles específicos, objetivos e información relevante.</strong> Así nuestro equipo preparará una respuesta estratégica a la medida de su situación.</p>
+      </div>
+    </div>
+
+    <div class="offices reveal-group">
+      <div class="office reveal-item">
+        <span class="office-label mono" data-i18n data-en="Office · United States">Oficina · Estados Unidos</span>
+        <span class="office-name">Commerce, California</span>
+        <p class="office-line">5704 SO Eastern Avenue, Suite 430<br/>Commerce, CA 90040, USA</p>
+        <div class="office-links">
+          <a href="tel:+13235220535">+1 (323) 522-0535</a>
+          <a href="mailto:contacto@once14.com">contacto@once14.com</a>
+        </div>
+      </div>
+      <div class="office reveal-item">
+        <span class="office-label mono" data-i18n data-en="Representation · Mexico">Representación · México</span>
+        <span class="office-name">Sonora, México</span>
+        <p class="office-line" data-i18n data-en="Direct support for clients<br/>and projects in Mexico.">Atención directa para clientes<br/>y proyectos en territorio mexicano.</p>
+        <div class="office-links">
+          <a href="tel:+526621888672">+52 662 188 8672</a>
+          <a href="tel:+526371145405">+52 637 114 5405</a>
+        </div>
+      </div>
+      <div class="office reveal-item">
+        <span class="office-label mono" data-i18n data-en="Email">Correo electrónico</span>
+        <span class="office-name" data-i18n data-en="General inquiries">Consultas generales</span>
+        <p class="office-line" data-i18n data-en="Write to us with the details of your inquiry and we'll respond promptly.">Escríbanos con el detalle de su consulta y le responderemos en un plazo breve.</p>
+        <div class="office-links">
+          <a href="mailto:contacto@once14.com">contacto@once14.com</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ AVISO ═══ -->
+<div class="aviso-wrap">
+  <p data-i18n data-en="The information, opinions, analysis and recommendations issued by ONCE14 are strictly technical and advisory in nature. Administrative, financial, tax, labor, commercial or investment decisions rest at all times and exclusively with the client. ONCE14's services do not constitute an audit, tax opinion, legal representation, financial intermediation, or any guarantee of loan or government grant approval, unless expressly established in a specific contract signed between the parties.">La información, opiniones, análisis y recomendaciones emitidas por ONCE14 tienen carácter exclusivamente técnico y consultivo. Las decisiones administrativas, financieras, fiscales, laborales, comerciales o de inversión corresponden en todo momento y de forma exclusiva al cliente. Los servicios de ONCE14 no constituyen auditoría, dictamen fiscal, representación legal, intermediación financiera ni garantía de autorización de créditos o apoyos gubernamentales, salvo que así se establezca expresamente en un contrato específico suscrito entre las partes.</p>
+</div>
+
+<!-- ═══ FOOTER ═══ -->
+<footer>
+  <div class="foot-grid">
+    <div class="foot-brand">
+      <div class="foot-logo">
+        <img src="assets/logo-icon.png" alt="ONCE14"/>
+        <span class="foot-logo-type">ONCE<span class="g">14</span></span>
+      </div>
+      <p class="foot-desc" data-i18n data-en="Economic, financial and strategic consulting. We turn information into strategy, and strategy into results that build stronger, future-ready businesses.">Consultoría económica, financiera y estratégica. Transformamos información en estrategia, y estrategia en resultados que construyen empresas más sólidas y preparadas para el futuro.</p>
+    </div>
+    <div class="foot-col"><h5 data-i18n data-en="The Firm">La firma</h5><ul>
+      <li><a href="#nosotros" data-i18n data-en="About us">Quiénes somos</a></li>
+      <li><a href="#metodologia" data-i18n data-en="Methodology">Metodología</a></li>
+      <li><a href="#faq" data-i18n data-en="FAQ">Preguntas frecuentes</a></li>
+    </ul></div>
+    <div class="foot-col"><h5 data-i18n data-en="Services">Servicios</h5><ul>
+      <li><a href="#servicios" data-i18n data-en="Financial Consulting">Consultoría Financiera</a></li>
+      <li><a href="#servicios" data-i18n data-en="Economic Consulting">Consultoría Económica</a></li>
+      <li><a href="#polizas" data-i18n data-en="Support Retainers">Pólizas de acompañamiento</a></li>
+      <li><a href="#proyectos" data-i18n data-en="Completed Projects">Proyectos realizados</a></li>
+    </ul></div>
+    <div class="foot-col"><h5 data-i18n data-en="Offices">Oficinas</h5><ul>
+      <li><a href="tel:+13235220535" data-i18n data-en="USA +1 (323) 522-0535">EE.UU. +1 (323) 522-0535</a></li>
+      <li><a href="tel:+526621888672" data-i18n data-en="MX +52 662 188 8672">MX +52 662 188 8672</a></li>
+      <li><a href="tel:+526371145405" data-i18n data-en="MX +52 637 114 5405">MX +52 637 114 5405</a></li>
+      <li><a href="mailto:contacto@once14.com">contacto@once14.com</a></li>
+    </ul></div>
+  </div>
+  <div class="foot-bottom">
+    <p data-i18n data-en="© 2025 <span>ONCE14</span> Business Consultory. All rights reserved.">© 2025 <span>ONCE14</span> Consultorio de Negocios. Todos los derechos reservados.</p>
+    <p data-i18n data-en="Commerce, CA, USA — Sonora, MX · We analyze the present. We build the future.">Commerce, CA, USA — Sonora, MX · Analizamos el presente. Construimos el futuro.</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
